@@ -1,0 +1,123 @@
+var elevado = Math.pow(8.3);
+var array = [1, 2, 3, 4, 5, 6];
+var arredondar = Math.round(26.8);
+var elevado = Math.pow(8.3);
+var tangente = Math.tan(50);
+var raiz = Math.sqrt(9);
+
+
+
+
+
+function minArray(){
+	var numeroMin = Math.min(...array);
+	alert(numeroMin);
+}
+
+function maxArray(){
+	var numeroMax = Math.max(...array);
+	alert(numeroMax);
+}
+
+function numArredonda(){
+	alert(arredondar);
+}
+
+function numElevado(){
+	alert(elevado);
+}
+
+function calculaTangente(){
+	alert(tangente);
+}
+
+function numRaiz(){
+	alert(raiz);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function escreveString(){
+	var str3 ="7";
+	alert(parseInt(str3));
+}
+
+
+function returnSubstring(){ 
+	str4 ="Fonsi flash";
+	alert(str4.slice(0, 5)); 
+}
+
+
+function comprimentoString(){ 
+	var str5 = "fonsiflash";
+	alert(str5.length);
+}
+
+
+function apagaString(){ 
+	var string = "Es muito bom";
+	var newString = string.substring(3, 8);
+	alert(newString);
+}
+
+function juntarStrings(){ //juntar strings 
+	var str6 ="Fonsi";
+	var str7 ="Flash";
+	var str8 = str6+str7+"!";
+	alert(str8);
+}
+
+
+function preSubtring(){  
+	var str9 = "o fonsiflash e muito bom";
+	alert(str9.indexOf("bom"));
+}
+
+
+
+
+// Gerar valores 
+
+function gerarNum(){ 
+	var numGerado = Math.random();
+	alert(numGerado);
+}
+
+function gerarNumInt(){ 
+	var numGeradoInt = Math.floor((Math.random() * 10) +1);
+	alert(numGeradoInt);
+}
+
+
+function stringMaiusculas(){ 
+	var str10="fonsiflash";
+	alert(str10.toUpperCase());
+}
+
+
+function stringMinusculas(){ 
+	var str11 = "FONSIFLASH";
+	alert(str11.toLowerCase());
+}
